@@ -44,11 +44,31 @@
 
 // difference the two number
 
-function difference(num1 , num2) {
-    const diff = num1 - num2 ;
-    console.log(num1, num2 , ' difference is' , diff);
+// function difference(num1 , num2) {
+//     const diff = num1 - num2 ;
+//     console.log(num1, num2 , ' difference is' , diff);
+// }
+
+// const fatherAge = 57 ;
+// const myAge = 38;
+// difference(fatherAge , myAge);
+
+
+// 20-4 Function Return And Set Return Value To A Variable
+
+function tenTimes (number) {
+    const result = number * 10 ;
+    return result;
 }
 
-const fatherAge = 57 ;
-const myAge = 38;
-difference(fatherAge - myAge);
+ function cutHalf(number) {
+    const half = number / 2 ;
+    return half ;
+ }
+ tenTimes(5);
+ const output = tenTimes(5);
+ console.log( 'output', output);
+ const bigNumber = tenTimes(99);
+ console.log(bigNumber);
+ 
+

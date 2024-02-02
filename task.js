@@ -38,3 +38,14 @@ console.log('--------------------------');
 doubleIt(873);
 const money = 112;
 doubleIt(money);
+
+// difference the two number
+
+function difference(num1 , num2) {
+    const diff = num1 - num2 ;
+    console.log(num1, num2 , ' difference is' , diff);
+}
+
+const fatherAge = 57 ;
+const myAge = 38;
+difference(fatherAge , myAge);

@@ -56,19 +56,57 @@
 
 // 20-4 Function Return And Set Return Value To A Variable
 
-function tenTimes (number) {
-    const result = number * 10 ;
-    return result;
+// function tenTimes (number) {
+//     const result = number * 10 ;
+//     return result;
+// }
+
+//  function cutHalf(number) {
+//     const half = number / 2 ;
+//     return half ;
+//  }
+//  tenTimes(5);
+//  const output = tenTimes(5);
+//  console.log( 'output', output);
+//  const bigNumber = tenTimes(99);
+//  console.log(bigNumber);
+
+
+//************************************ 20-5 Recap And Conditional Return Of Odd And Even
+
+
+
+// function doMath(num1 , num2) {
+//     const sum = num1 + num2 ;
+//     const difference =  num1 - num2 ;
+//     const multiply = sum * difference ;
+//     const result =  multiply / 2 ;
+//     return result;
+// }
+
+// const result = doMath (10 , 5)
+// console.log(result);
+
+
+// return on a conditional basis
+
+function isEven(number) {
+    if (number % 2 === 0) {
+        return true;
+    }
+    else{
+        return false;
+    }
 }
+console.log(isEven(50));
+console.log(isEven(105));
 
- function cutHalf(number) {
-    const half = number / 2 ;
-    return half ;
- }
- tenTimes(5);
- const output = tenTimes(5);
- console.log( 'output', output);
- const bigNumber = tenTimes(99);
- console.log(bigNumber);
- 
-
+function isOdd(number) {
+    if (number % 2 === 1) {
+        return true;
+    }
+    else{
+        return false;
+    }
+}
+console.log(isOdd(203));

@@ -89,24 +89,77 @@
 
 
 // return on a conditional basis
+// Conditional Return
+// function isEven(number) {
+//     if (number % 2 === 0) {
+//         return true;
+//     }
+//     else{
+//         return false;
+//     }
+// }
+// console.log(isEven(50));
+// console.log(isEven(105));
 
-function isEven(number) {
-    if (number % 2 === 0) {
-        return true;
-    }
-    else{
-        return false;
-    }
-}
-console.log(isEven(50));
-console.log(isEven(105));
+// **************************************************************
+// function isOdd(number) {
+//     if (number % 2 === 1) {
+//         return true;
+//     }
+//     else{
+//         return false;
+//     }
+// }
+// console.log(isOdd(203));
 
-function isOdd(number) {
-    if (number % 2 === 1) {
-        return true;
-    }
-    else{
-        return false;
-    }
+
+// **************************** Different Types Of Parameters Of A Function
+
+/**
+ * for a given string tell me whether it has even number of characters or not
+ * 
+*/
+// function evenSizedString(str) {
+//     const size = str.length;
+//     console.log(str , size);
+//     if (size % 2 === 0)  {
+//         console.log('even size');
+//     }
+//     else{
+//         console.log('Odd size');
+//     }
+    
+// }
+// evenSizedString('Dhaka');
+// evenSizedString('faka');
+
+// **************************************************************************
+
+// function doubleOrTriple(number , doDouble) {
+//     if (doDouble === true) {
+//         const result = number * 2;
+//         return result;
+//     }
+//     else{
+//         const result = number * 3;
+//         return result;
+//     }
+// }
+
+// console.log(doubleOrTriple(5 , true));
+// console.log(doubleOrTriple(5 , false));
+
+// array
+function numberOfElements(numbers){
+    const len = numbers.length;
+    return len;
 }
-console.log(isOdd(203));
+
+numberOfElements([12, 45, 78,45,121254,4,5])
+
+// *************************************************************
+
+function getAge(person){
+    const age = person.age;
+    return age;
+}
